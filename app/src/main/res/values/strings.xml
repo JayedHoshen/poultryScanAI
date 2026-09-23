@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">PoultryScan</string>
+
+    <!-- Scan screen -->
+    <string name="scan_poultry_image">Scan Poultry Image</string>
+    <string name="analyze_image">Analyze Image</string>
+    <string name="analyzing">Analyzing\u2026</string>
+    <string name="take_photo">Take photo</string>
+    <string name="choose_from_gallery">Choose from gallery</string>
+    <string name="no_image_selected">No image selected</string>
+    <string name="take_or_pick_hint">Take a photo or pick one from the gallery</string>
+    <string name="offline_notice">Works offline \u2014 detection runs on your device</string>
+    <string name="selected_poultry_image">Selected poultry image</string>
+    <string name="back">Back</string>
+
+    <!-- Result screen -->
+    <string name="result_title">Scan Result</string>
+    <string name="scanned_image">Scanned image</string>
+    <string name="detected_disease">DETECTED</string>
+    <string name="section_about">About the Disease</string>
+    <string name="section_symptoms">Common Symptoms</string>
+    <string name="section_what_to_do">What To Do</string>
+    <string name="section_prevention">Prevention and Hygiene</string>
+    <string name="section_scores">All Class Scores</string>
+    <string name="section_vet">Veterinary Advice</string>
+    <string name="vet_body">Consult a qualified poultry veterinarian for diagnosis and treatment. Do not start any medication without professional advice. If several birds are affected or deaths occur, seek help immediately and report notifiable diseases to your local animal health authority.</string>
+    <string name="ai_disclaimer">AI screening result only. This result should not replace diagnosis by a qualified poultry veterinarian.</string>
+    <string name="done">Done</string>
+
+    <!-- Home -->
+    <string name="greeting_format">Hello, %1$s</string>
+    <string name="greeting_fallback">Hello, Farmer</string>
+
+    <!-- Scan history -->
+    <string name="scan_history_title">Scan History</string>
+    <string name="no_scans_yet">No scans yet</string>
+    <string name="no_scans_body">Your poultry scan history will appear here.</string>
+    <string name="scan_first_image">Scan your first image</string>
+    <string name="history_save_failed">This result could not be saved to your history.</string>
+    <string name="history_load_failed">Your scan history could not be loaded.</string>
+    <string name="delete_scan_title">Delete this scan?</string>
+    <string name="delete_scan_message">This removes the record and its saved image from this device.</string>
+    <string name="delete">Delete</string>
+    <string name="cancel">Cancel</string>
+    <string name="delete_failed">This scan could not be deleted.</string>
+
+    <!-- Disease library -->
+    <string name="disease_library_title">Disease Library</string>
+    <string name="library_intro">These are the only four conditions the on-device model can screen for.</string>
+    <string name="view_details">View details \u2192</string>
+    <string name="unknown_disease">That disease is not in the library.</string>
+    <string name="section_overview">Overview</string>
+    <string name="section_spread">How It Can Spread</string>
+    <string name="section_management">General Management</string>
+    <string name="section_when_vet">When to Contact a Veterinarian</string>
+    <string name="ai_disclaimer_library">AI screening results are for informational purposes and should not replace diagnosis by a qualified poultry veterinarian.</string>
+
+    <!-- Result -->
+    <string name="uncertain_result">Uncertain Result</string>
+    <string name="uncertain_body">The model could not confidently identify a disease from this image.\n\nPlease:\n\u2022 take a clearer photo\n\u2022 make sure the affected area is visible\n\u2022 use good lighting\n\u2022 avoid blurry images</string>
+</resources>
